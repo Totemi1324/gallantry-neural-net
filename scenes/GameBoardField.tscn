@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://ua21qbylbpat"]
+
+[node name="Area2D" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.129412, 0.807843, 0.729412, 0.156863)
+offset = Vector2(-331, -274)
+polygon = PackedVector2Array(362, 274, 331, 327, 362, 379, 423, 379, 452, 327, 423, 274)
+
+[node name="SingleStackPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(62, 53)
+
+[node name="TwoStackPos1" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(36, 53)
+
+[node name="TwoStackPos2" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(86, 53)
+
+[node name="ThreeStackPos1" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(39, 36)
+
+[node name="ThreeStackPos2" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(83, 36)
+
+[node name="ThreeStackPos3" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(62, 76)
