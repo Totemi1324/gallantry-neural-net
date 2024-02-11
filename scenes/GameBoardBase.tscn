@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsc83rin2is1c"]
+
+[ext_resource type="Texture2D" uid="uid://v70y7ryxfmmc" path="res://assets/board.png" id="1_qdm3p"]
+[ext_resource type="Texture2D" uid="uid://cjfahgc1kryo2" path="res://assets/figures/red/squire_red.png" id="2_x2qcm"]
+
+[node name="GameBoardBaseNode" type="Node2D"]
+
+[node name="Board" type="Sprite2D" parent="."]
+position = Vector2(301, 485)
+scale = Vector2(0.466279, 0.466279)
+texture = ExtResource("1_qdm3p")
+
+[node name="SquireRed" type="Sprite2D" parent="."]
+position = Vector2(228, 137)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed2" type="Sprite2D" parent="."]
+position = Vector2(274, 161)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed3" type="Sprite2D" parent="."]
+position = Vector2(326, 162)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed4" type="Sprite2D" parent="."]
+position = Vector2(368, 138)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed5" type="Sprite2D" parent="."]
+position = Vector2(257, 89)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed6" type="Sprite2D" parent="."]
+position = Vector2(302, 117)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed8" type="Sprite2D" parent="."]
+position = Vector2(302, 70)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
+
+[node name="SquireRed7" type="Sprite2D" parent="."]
+position = Vector2(347, 90)
+scale = Vector2(0.155769, 0.155769)
+texture = ExtResource("2_x2qcm")
