@@ -1,51 +1,41 @@
-[gd_scene load_steps=3 format=3 uid="uid://bsc83rin2is1c"]
-
-[ext_resource type="Texture2D" uid="uid://v70y7ryxfmmc" path="res://assets/board.png" id="1_qdm3p"]
-[ext_resource type="Texture2D" uid="uid://cjfahgc1kryo2" path="res://assets/figures/red/squire_red.png" id="2_x2qcm"]
+[gd_scene format=3 uid="uid://bsc83rin2is1c"]
 
 [node name="GameBoardBaseNode" type="Node2D"]
 
-[node name="Board" type="Sprite2D" parent="."]
-position = Vector2(301, 485)
-scale = Vector2(0.466279, 0.466279)
-texture = ExtResource("1_qdm3p")
+[node name="Polygon2D" type="Polygon2D" parent="."]
+visible = false
+color = Color(0.129412, 0.807843, 0.729412, 0.156863)
+offset = Vector2(-180, -44)
+polygon = PackedVector2Array(252, 44, 351, 44, 422, 168, 362, 168, 332, 221, 271, 221, 241, 168, 180, 168)
 
-[node name="SquireRed" type="Sprite2D" parent="."]
-position = Vector2(228, 137)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos1" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(94, 119)
 
-[node name="SquireRed2" type="Sprite2D" parent="."]
-position = Vector2(274, 161)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos2" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(148, 119)
 
-[node name="SquireRed3" type="Sprite2D" parent="."]
-position = Vector2(326, 162)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos3" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(51, 95)
 
-[node name="SquireRed4" type="Sprite2D" parent="."]
-position = Vector2(368, 138)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos4" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(191, 95)
 
-[node name="SquireRed5" type="Sprite2D" parent="."]
-position = Vector2(257, 89)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos5" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(121, 76)
 
-[node name="SquireRed6" type="Sprite2D" parent="."]
-position = Vector2(302, 117)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos6" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(80, 47)
 
-[node name="SquireRed8" type="Sprite2D" parent="."]
-position = Vector2(302, 70)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos7" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(162, 47)
 
-[node name="SquireRed7" type="Sprite2D" parent="."]
-position = Vector2(347, 90)
-scale = Vector2(0.155769, 0.155769)
-texture = ExtResource("2_x2qcm")
+[node name="BasePos8" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(121, 28)

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cyxrjmt3vft1s"]
+[gd_scene load_steps=5 format=3 uid="uid://cyxrjmt3vft1s"]
 
 [ext_resource type="Texture2D" uid="uid://v70y7ryxfmmc" path="res://assets/board.png" id="1_e8fpi"]
 [ext_resource type="PackedScene" uid="uid://ua21qbylbpat" path="res://scenes/GameBoardField.tscn" id="2_hpcxm"]
 [ext_resource type="PackedScene" uid="uid://cpt4bemcoa8tf" path="res://scenes/GameBoardSafeField.tscn" id="3_84aw1"]
+[ext_resource type="PackedScene" uid="uid://bsc83rin2is1c" path="res://scenes/GameBoardBase.tscn" id="4_72dav"]
 
 [node name="GameBoardNode" type="Node2D"]
 
@@ -94,3 +95,14 @@ position = Vector2(89, 475)
 
 [node name="GameBoardSafeFieldNode" parent="." instance=ExtResource("3_84aw1")]
 position = Vector2(241, 169)
+
+[node name="GameBoardSafeFieldNode2" parent="." instance=ExtResource("3_84aw1")]
+position = Vector2(361, 801)
+rotation = -3.14159
+
+[node name="GameBoardBaseNode" parent="." instance=ExtResource("4_72dav")]
+position = Vector2(180, 44)
+
+[node name="GameBoardBaseNode2" parent="." instance=ExtResource("4_72dav")]
+position = Vector2(422, 926)
+rotation = 3.14159

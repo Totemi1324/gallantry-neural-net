@@ -3,6 +3,7 @@
 [node name="GameBoardSafeFieldNode" type="Node2D"]
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
+visible = false
 color = Color(0.129412, 0.807843, 0.729412, 0.156863)
 offset = Vector2(-241, -169)
 polygon = PackedVector2Array(241, 169, 362, 169, 332, 221, 271, 221)
