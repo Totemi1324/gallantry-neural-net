@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cyxrjmt3vft1s"]
+[gd_scene load_steps=6 format=3 uid="uid://cyxrjmt3vft1s"]
 
 [ext_resource type="Texture2D" uid="uid://v70y7ryxfmmc" path="res://assets/board.png" id="1_e8fpi"]
 [ext_resource type="PackedScene" uid="uid://ua21qbylbpat" path="res://scenes/GameBoardField.tscn" id="2_hpcxm"]
+[ext_resource type="Script" path="res://scenes/FieldManager.cs" id="2_ok48t"]
 [ext_resource type="PackedScene" uid="uid://cpt4bemcoa8tf" path="res://scenes/GameBoardSafeField.tscn" id="3_84aw1"]
 [ext_resource type="PackedScene" uid="uid://bsc83rin2is1c" path="res://scenes/GameBoardBase.tscn" id="4_72dav"]
 
@@ -14,98 +15,266 @@ texture = ExtResource("1_e8fpi")
 offset = Vector2(0, 947.93)
 
 [node name="FieldManagerNode" type="Node2D" parent="."]
+script = ExtResource("2_ok48t")
 
-[node name="GameBoardFieldNode2" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="1" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
+position = Vector2(-62, 179)
+
+[node name="2" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-151.25, 127.163)
 
-[node name="GameBoardFieldNode3" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="3" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(29.7501, 127.163)
 
-[node name="GameBoardFieldNode4" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="4" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-242.25, 179.163)
 
-[node name="GameBoardFieldNode5" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="5" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(120.75, 179.163)
 
-[node name="GameBoardFieldNode6" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="6" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-151.25, 232.163)
 
-[node name="GameBoardFieldNode7" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="7" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(29.7501, 232.163)
 
-[node name="GameBoardFieldNode8" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="8" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-242.25, 284.163)
 
-[node name="GameBoardFieldNode9" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="9" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-62, 284.163)
 
-[node name="GameBoardFieldNode10" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="10" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(119.75, 285.163)
 
-[node name="GameBoardFieldNode11" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="11" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-151.25, 337.163)
 
-[node name="GameBoardFieldNode12" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="12" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(29.7501, 337.163)
 
-[node name="GameBoardFieldNode13" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="13" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-242.25, 389.163)
 
-[node name="GameBoardFieldNode14" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="14" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-62, 389.163)
 
-[node name="GameBoardFieldNode15" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="15" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(119.75, 390.163)
 
-[node name="GameBoardFieldNode16" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="16" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-151.25, 444.163)
 
-[node name="GameBoardFieldNode17" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="17" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(29.7501, 444.163)
 
-[node name="GameBoardFieldNode18" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="18" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-242.25, 496.163)
 
-[node name="GameBoardFieldNode19" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="19" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-62, 496.163)
 
-[node name="GameBoardFieldNode20" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="20" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(119.75, 497.163)
 
-[node name="GameBoardFieldNode21" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="21" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-151.25, 549.163)
 
-[node name="GameBoardFieldNode22" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="22" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(29.7501, 549.163)
 
-[node name="GameBoardFieldNode23" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="23" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-242.25, 601.163)
 
-[node name="GameBoardFieldNode24" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="24" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-62, 601.163)
 
-[node name="GameBoardFieldNode25" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="25" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(119.75, 602.163)
 
-[node name="GameBoardFieldNode26" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="26" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(-151.25, 654.163)
 
-[node name="GameBoardFieldNode27" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+[node name="27" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+unique_name_in_owner = true
 position = Vector2(28.7501, 654.163)
 
-[node name="GameBoardFieldNode" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-60.2499, 179.163)
-
-[node name="GameBoardSafeFieldNode" parent="FieldManagerNode" instance=ExtResource("3_84aw1")]
+[node name="Safe1" parent="FieldManagerNode" instance=ExtResource("3_84aw1")]
+unique_name_in_owner = true
 position = Vector2(-60.2499, 127.163)
 
-[node name="GameBoardSafeFieldNode2" parent="FieldManagerNode" instance=ExtResource("3_84aw1")]
+[node name="Safe2" parent="FieldManagerNode" instance=ExtResource("3_84aw1")]
+unique_name_in_owner = true
 position = Vector2(59.7501, 759.163)
 rotation = 3.14159
 
-[node name="GameBoardBaseNode" parent="FieldManagerNode" instance=ExtResource("4_72dav")]
+[node name="Base1" parent="FieldManagerNode" instance=ExtResource("4_72dav")]
+unique_name_in_owner = true
 position = Vector2(-121.25, 2.1634)
 
-[node name="GameBoardBaseNode2" parent="FieldManagerNode" instance=ExtResource("4_72dav")]
+[node name="Base2" parent="FieldManagerNode" instance=ExtResource("4_72dav")]
+unique_name_in_owner = true
 position = Vector2(120.75, 884.163)
 rotation = -3.14159
+
+[node name="Label" type="Label" parent="."]
+offset_left = -20.0
+offset_top = 218.0
+offset_right = 20.0
+offset_bottom = 241.0
+text = "1"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -110.0
+offset_top = 165.0
+offset_right = -70.0
+offset_bottom = 188.0
+text = "2"
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 71.0
+offset_top = 167.0
+offset_right = 111.0
+offset_bottom = 190.0
+text = "3"
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="."]
+offset_left = -201.0
+offset_top = 220.0
+offset_right = -161.0
+offset_bottom = 243.0
+text = "4"
+horizontal_alignment = 1
+
+[node name="Label5" type="Label" parent="."]
+offset_left = 163.0
+offset_top = 218.0
+offset_right = 203.0
+offset_bottom = 241.0
+text = "5"
+horizontal_alignment = 1
+
+[node name="Label6" type="Label" parent="."]
+offset_left = -109.0
+offset_top = 273.0
+offset_right = -69.0
+offset_bottom = 296.0
+text = "6"
+horizontal_alignment = 1
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 72.0
+offset_top = 271.0
+offset_right = 112.0
+offset_bottom = 294.0
+text = "7"
+horizontal_alignment = 1
+
+[node name="Label8" type="Label" parent="."]
+offset_left = -201.0
+offset_top = 324.0
+offset_right = -161.0
+offset_bottom = 347.0
+text = "8"
+horizontal_alignment = 1
+
+[node name="Label9" type="Label" parent="."]
+offset_left = -19.0
+offset_top = 325.0
+offset_right = 21.0
+offset_bottom = 348.0
+text = "9"
+horizontal_alignment = 1
+
+[node name="Label10" type="Label" parent="."]
+offset_left = 163.0
+offset_top = 326.0
+offset_right = 203.0
+offset_bottom = 349.0
+text = "10"
+horizontal_alignment = 1
+
+[node name="Label11" type="Label" parent="."]
+offset_left = -108.0
+offset_top = 378.0
+offset_right = -68.0
+offset_bottom = 401.0
+text = "11"
+horizontal_alignment = 1
+
+[node name="Label12" type="Label" parent="."]
+offset_left = 72.0
+offset_top = 378.0
+offset_right = 112.0
+offset_bottom = 401.0
+text = "12"
+horizontal_alignment = 1
+
+[node name="Label13" type="Label" parent="."]
+offset_left = -200.0
+offset_top = 429.0
+offset_right = -160.0
+offset_bottom = 452.0
+text = "13"
+horizontal_alignment = 1
+
+[node name="Label14" type="Label" parent="."]
+offset_left = -19.0
+offset_top = 429.0
+offset_right = 21.0
+offset_bottom = 452.0
+text = "14"
+horizontal_alignment = 1
+
+[node name="Label15" type="Label" parent="."]
+offset_left = 163.0
+offset_top = 429.0
+offset_right = 203.0
+offset_bottom = 452.0
+text = "15"
+horizontal_alignment = 1
+
+[node name="Label16" type="Label" parent="."]
+offset_left = -107.0
+offset_top = 485.0
+offset_right = -67.0
+offset_bottom = 508.0
+text = "16"
+horizontal_alignment = 1
+
+[node name="Label17" type="Label" parent="."]
+offset_left = 73.0
+offset_top = 485.0
+offset_right = 113.0
+offset_bottom = 508.0
+text = "17"
+horizontal_alignment = 1
