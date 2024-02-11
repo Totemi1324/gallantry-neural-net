@@ -8,12 +8,13 @@
 [node name="GameBoardNode" type="Node2D"]
 
 [node name="Board" type="Sprite2D" parent="."]
-position = Vector2(301, 485)
+position = Vector2(-0.249939, 1.16341)
 scale = Vector2(0.466279, 0.466279)
 texture = ExtResource("1_e8fpi")
+offset = Vector2(0, 947.93)
 
 [node name="GameBoardFieldNode" parent="." instance=ExtResource("2_hpcxm")]
-position = Vector2(241, 221)
+position = Vector2(-60.2499, 179.163)
 
 [node name="GameBoardFieldNode2" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
 position = Vector2(-91, -52)
@@ -94,15 +95,15 @@ position = Vector2(-91, 475)
 position = Vector2(89, 475)
 
 [node name="GameBoardSafeFieldNode" parent="." instance=ExtResource("3_84aw1")]
-position = Vector2(241, 169)
+position = Vector2(-60.2499, 127.163)
 
 [node name="GameBoardSafeFieldNode2" parent="." instance=ExtResource("3_84aw1")]
-position = Vector2(361, 801)
+position = Vector2(59.7501, 759.163)
 rotation = -3.14159
 
 [node name="GameBoardBaseNode" parent="." instance=ExtResource("4_72dav")]
-position = Vector2(180, 44)
+position = Vector2(-121.25, 2.1634)
 
 [node name="GameBoardBaseNode2" parent="." instance=ExtResource("4_72dav")]
-position = Vector2(422, 926)
+position = Vector2(120.75, 884.163)
 rotation = 3.14159
