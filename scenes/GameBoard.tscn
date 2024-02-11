@@ -13,97 +13,99 @@ scale = Vector2(0.466279, 0.466279)
 texture = ExtResource("1_e8fpi")
 offset = Vector2(0, 947.93)
 
-[node name="GameBoardFieldNode" parent="." instance=ExtResource("2_hpcxm")]
+[node name="FieldManagerNode" type="Node2D" parent="."]
+
+[node name="GameBoardFieldNode2" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-151.25, 127.163)
+
+[node name="GameBoardFieldNode3" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(29.7501, 127.163)
+
+[node name="GameBoardFieldNode4" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-242.25, 179.163)
+
+[node name="GameBoardFieldNode5" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(120.75, 179.163)
+
+[node name="GameBoardFieldNode6" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-151.25, 232.163)
+
+[node name="GameBoardFieldNode7" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(29.7501, 232.163)
+
+[node name="GameBoardFieldNode8" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-242.25, 284.163)
+
+[node name="GameBoardFieldNode9" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-62, 284.163)
+
+[node name="GameBoardFieldNode10" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(119.75, 285.163)
+
+[node name="GameBoardFieldNode11" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-151.25, 337.163)
+
+[node name="GameBoardFieldNode12" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(29.7501, 337.163)
+
+[node name="GameBoardFieldNode13" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-242.25, 389.163)
+
+[node name="GameBoardFieldNode14" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-62, 389.163)
+
+[node name="GameBoardFieldNode15" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(119.75, 390.163)
+
+[node name="GameBoardFieldNode16" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-151.25, 444.163)
+
+[node name="GameBoardFieldNode17" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(29.7501, 444.163)
+
+[node name="GameBoardFieldNode18" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-242.25, 496.163)
+
+[node name="GameBoardFieldNode19" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-62, 496.163)
+
+[node name="GameBoardFieldNode20" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(119.75, 497.163)
+
+[node name="GameBoardFieldNode21" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-151.25, 549.163)
+
+[node name="GameBoardFieldNode22" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(29.7501, 549.163)
+
+[node name="GameBoardFieldNode23" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-242.25, 601.163)
+
+[node name="GameBoardFieldNode24" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-62, 601.163)
+
+[node name="GameBoardFieldNode25" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(119.75, 602.163)
+
+[node name="GameBoardFieldNode26" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(-151.25, 654.163)
+
+[node name="GameBoardFieldNode27" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
+position = Vector2(28.7501, 654.163)
+
+[node name="GameBoardFieldNode" parent="FieldManagerNode" instance=ExtResource("2_hpcxm")]
 position = Vector2(-60.2499, 179.163)
 
-[node name="GameBoardFieldNode2" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-91, -52)
-
-[node name="GameBoardFieldNode3" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(90, -52)
-
-[node name="GameBoardFieldNode4" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-182, 0)
-
-[node name="GameBoardFieldNode5" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(181, 0)
-
-[node name="GameBoardFieldNode6" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-91, 53)
-
-[node name="GameBoardFieldNode7" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(90, 53)
-
-[node name="GameBoardFieldNode8" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-182, 105)
-
-[node name="GameBoardFieldNode9" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-1, 105)
-
-[node name="GameBoardFieldNode10" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(180, 106)
-
-[node name="GameBoardFieldNode11" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-91, 158)
-
-[node name="GameBoardFieldNode12" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(90, 158)
-
-[node name="GameBoardFieldNode13" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-182, 210)
-
-[node name="GameBoardFieldNode14" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-1, 210)
-
-[node name="GameBoardFieldNode15" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(180, 211)
-
-[node name="GameBoardFieldNode16" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-91, 265)
-
-[node name="GameBoardFieldNode17" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(90, 265)
-
-[node name="GameBoardFieldNode18" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-182, 317)
-
-[node name="GameBoardFieldNode19" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-1, 317)
-
-[node name="GameBoardFieldNode20" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(180, 318)
-
-[node name="GameBoardFieldNode21" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-91, 370)
-
-[node name="GameBoardFieldNode22" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(90, 370)
-
-[node name="GameBoardFieldNode23" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-182, 422)
-
-[node name="GameBoardFieldNode24" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-1, 422)
-
-[node name="GameBoardFieldNode25" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(180, 423)
-
-[node name="GameBoardFieldNode26" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(-91, 475)
-
-[node name="GameBoardFieldNode27" parent="GameBoardFieldNode" instance=ExtResource("2_hpcxm")]
-position = Vector2(89, 475)
-
-[node name="GameBoardSafeFieldNode" parent="." instance=ExtResource("3_84aw1")]
+[node name="GameBoardSafeFieldNode" parent="FieldManagerNode" instance=ExtResource("3_84aw1")]
 position = Vector2(-60.2499, 127.163)
 
-[node name="GameBoardSafeFieldNode2" parent="." instance=ExtResource("3_84aw1")]
+[node name="GameBoardSafeFieldNode2" parent="FieldManagerNode" instance=ExtResource("3_84aw1")]
 position = Vector2(59.7501, 759.163)
-rotation = -3.14159
+rotation = 3.14159
 
-[node name="GameBoardBaseNode" parent="." instance=ExtResource("4_72dav")]
+[node name="GameBoardBaseNode" parent="FieldManagerNode" instance=ExtResource("4_72dav")]
 position = Vector2(-121.25, 2.1634)
 
-[node name="GameBoardBaseNode2" parent="." instance=ExtResource("4_72dav")]
+[node name="GameBoardBaseNode2" parent="FieldManagerNode" instance=ExtResource("4_72dav")]
 position = Vector2(120.75, 884.163)
-rotation = 3.14159
+rotation = -3.14159
