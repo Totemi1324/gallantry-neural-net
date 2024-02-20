@@ -13,7 +13,7 @@ public partial class FieldManager : Node2D
     private IField[] _defaultFields;
     private IField[] _safeFields;
     private IField[] _baseFields;
-    private Dictionary<string, List<(IField, Connection)>> _neighborMap;
+    //private Dictionary<string, List<(IField, Connection)>> _neighborMap;
 
     public override void _Ready()
     {
@@ -26,7 +26,7 @@ public partial class FieldManager : Node2D
         _baseFields[0] = GetNode<IField>("%Base1");
         _baseFields[1] = GetNode<IField>("%Base2");
 
-        _neighborMap = new Dictionary<string, List<(IField, Connection)>>()
+        /*_neighborMap = new Dictionary<string, List<(IField, Connection)>>()
         {
             {"1", new List<(IField, Connection)>()
             {
@@ -94,7 +94,7 @@ public partial class FieldManager : Node2D
                 (_defaultFields[10], Connection.Normal),
                 (_defaultFields[5], Connection.Normal),
                 }},
-        };
+        };*/
     }
 
     /*public List<IField> GetNeighbors(string name) {
