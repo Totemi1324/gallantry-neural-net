@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public partial class GameBoardField : Node2D, IField
 {
     private FieldManager _manager;
+    private Array<int> _allNeighbors;
 
     [Export]
     public Array<int> NeighborsNormal;
@@ -18,6 +19,11 @@ public partial class GameBoardField : Node2D, IField
     public override void _Ready()
     {
         Manager = GetParent<FieldManager>();
+
+        _allNeighbors = NeighborsNormal is not null ? new Array<int>(NeighborsNormal) : new Array<int>();
+        if (NeighborsKnightsOnly is not null) {
+            _allNeighbors.AddRange(NeighborsKnightsOnly);
+        }
     }
 
     public void Move(Node2D piece)
@@ -27,11 +33,11 @@ public partial class GameBoardField : Node2D, IField
 
     public Array<int> GetNeighborsNormal()
     {
-        throw new NotImplementedException();
+        return NeighborsNormal is not null ? NeighborsNormal : new Array<int>();
     }
 
     public Array<int> GetNeighborsAll()
     {
-        throw new NotImplementedException();
+        return _allNeighbors;
     }
 }

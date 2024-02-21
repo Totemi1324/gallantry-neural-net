@@ -20,12 +20,12 @@ public partial class GameBoardSafeField : Node2D, IField
 
     public Array<int> GetNeighborsAll()
     {
-        throw new NotImplementedException();
+        return Neighbors is not null ? Neighbors : new Array<int>();
     }
 
     public Array<int> GetNeighborsNormal()
     {
-        throw new NotImplementedException();
+        return Neighbors is not null ? Neighbors : new Array<int>();
     }
 
     public void Move(Node2D piece)
