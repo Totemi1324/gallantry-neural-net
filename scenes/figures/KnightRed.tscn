@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://bwcvoulitqkvo"]
+[gd_scene load_steps=4 format=3 uid="uid://bwcvoulitqkvo"]
 
 [ext_resource type="Texture2D" uid="uid://bxj3r7oan6sem" path="res://assets/figures/red/knight_red.png" id="1_7j3eu"]
+[ext_resource type="Script" path="res://scenes/figures/KnightRed.cs" id="1_y1yoh"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vx4dn"]
 radius = 108.0
 
 [node name="KnightRedPiece" type="Area2D"]
+script = ExtResource("1_y1yoh")
 
 [node name="KnightRed" type="Sprite2D" parent="."]
 position = Vector2(0, -26)
