@@ -28,7 +28,7 @@ public partial class GameBoardBase : Node2D, IField
         return Neighbors is not null ? Neighbors : new Array<int>();
     }
 
-    public void Move(Node2D piece)
+    public void Move(IFigure piece)
     {
         throw new NotImplementedException();
     }

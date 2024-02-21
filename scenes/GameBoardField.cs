@@ -25,12 +25,7 @@ public partial class GameBoardField : Node2D, IField
             _allNeighbors.AddRange(NeighborsKnightsOnly);
         }
     }
-
-    public void Move(Node2D piece)
-    {
-        throw new NotImplementedException();
-    }
-
+    
     public Array<int> GetNeighborsNormal()
     {
         return NeighborsNormal is not null ? NeighborsNormal : new Array<int>();
@@ -40,4 +35,10 @@ public partial class GameBoardField : Node2D, IField
     {
         return _allNeighbors;
     }
+
+    public void Move(IFigure piece)
+    {
+        throw new NotImplementedException();
+    }
+
 }
