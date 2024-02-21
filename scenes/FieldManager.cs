@@ -4,12 +4,6 @@ using System.Collections.Generic;
 
 public partial class FieldManager : Node2D
 {
-    private enum Connection
-    {
-        Normal,
-        KnightOnly,
-    }
-
     private IField[] _defaultFields;
     private IField[] _safeFields;
     private IField[] _baseFields;
