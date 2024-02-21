@@ -5,7 +5,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_vx4dn"]
 radius = 108.0
 
-[node name="Area2D" type="Area2D"]
+[node name="KnightRedPiece" type="Area2D"]
 
 [node name="KnightRed" type="Sprite2D" parent="."]
 position = Vector2(0, -26)
