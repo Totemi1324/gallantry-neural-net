@@ -3,15 +3,13 @@ using Godot.Collections;
 using System;
 using System.Collections.Generic;
 
-public partial class GameBoardField : Node2D, IField
+public partial class GameBoardBase : Node2D, IField
 {
     private FieldManager _manager;
 
     [Export]
-    public Array<int> NeighborsNormal;
-    [Export]
-    public Array<int> NeighborsKnightsOnly;
-
+    public Array<int> Neighbors;
+    
     public FieldManager Manager { get => _manager; set => _manager = value; }
     public List<Node2D> Pieces { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
@@ -20,7 +18,7 @@ public partial class GameBoardField : Node2D, IField
         Manager = GetParent<FieldManager>();
     }
 
-    public void Move(Node2D piece)
+    public Array<int> GetNeighborsAll()
     {
         throw new NotImplementedException();
     }
@@ -30,8 +28,9 @@ public partial class GameBoardField : Node2D, IField
         throw new NotImplementedException();
     }
 
-    public Array<int> GetNeighborsAll()
+    public void Move(Node2D piece)
     {
         throw new NotImplementedException();
     }
+
 }

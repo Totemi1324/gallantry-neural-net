@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://cpt4bemcoa8tf"]
+[gd_scene load_steps=2 format=3 uid="uid://cpt4bemcoa8tf"]
+
+[ext_resource type="Script" path="res://scenes/GameBoardSafeField.cs" id="1_ux6cy"]
 
 [node name="GameBoardSafeFieldNode" type="Node2D"]
+script = ExtResource("1_ux6cy")
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 visible = false

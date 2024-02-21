@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://bsc83rin2is1c"]
+[gd_scene load_steps=2 format=3 uid="uid://bsc83rin2is1c"]
+
+[ext_resource type="Script" path="res://scenes/GameBoardBase.cs" id="1_j07xp"]
 
 [node name="GameBoardBaseNode" type="Node2D"]
+script = ExtResource("1_j07xp")
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 visible = false

@@ -7,4 +7,8 @@ public interface IField {
     public List<Node2D> Pieces {get; set;}
 
     public void Move(Node2D piece);
+
+    public Godot.Collections.Array<int> GetNeighborsNormal();
+
+    public Godot.Collections.Array<int> GetNeighborsAll();
 }
